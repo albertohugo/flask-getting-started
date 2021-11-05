@@ -1,0 +1,8 @@
+python -m pip install flask
+
+export FLASK_APP=flashcards.py
+export FLASK_ENV=development
+
+flask run
+
+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

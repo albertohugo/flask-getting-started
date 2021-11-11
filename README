@@ -10,3 +10,9 @@ For contributions
 git config --global user.email "albertohugo@gmail.com"
 
 **Flask WTF for security
+
+Deployment our app
+    Server gunicorn
+    nginx
+
+pip freeze > requirements. txt

@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <h1>Remove Flash Card</h1>
+    Question: {{ card.question }} <br>
+    Answer:   {{ card.answer }}
+
+    <h2>Are you sure?</h2>
+    <form method="post">
+        <button type="submit">Yes</button>
+        <a href="{{ url_for('welcome') }}">No</a>
+    </form>
 </body>
 </html>

@@ -5,10 +5,8 @@ export FLASK_ENV=development
 
 flask run
 
-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
-
-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
-
+For contributions
+---
 git config --global user.email "albertohugo@gmail.com"
 
 **Flask WTF for security
